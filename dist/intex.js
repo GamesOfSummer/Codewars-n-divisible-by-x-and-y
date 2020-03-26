@@ -11,5 +11,6 @@ hello("maybe hello");
 function isDivisible(n, x, y) {
     return true;
 }
+exports.isDivisible = isDivisible;
 isDivisible(3, 3, 4);
 //# sourceMappingURL=intex.js.map
