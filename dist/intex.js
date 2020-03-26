@@ -1,16 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var world = '🗺️';
-function hello(word) {
-    if (word === void 0) { word = world; }
-    console.log("yes");
-    return "Hello " + world + "! ";
-}
-exports.hello = hello;
-hello("maybe hello");
 function isDivisible(n, x, y) {
-    return true;
+    if (n % x === 0 && n % y === 0) {
+        return true;
+    }
+    return false;
 }
 exports.isDivisible = isDivisible;
-isDivisible(3, 3, 4);
 //# sourceMappingURL=intex.js.map

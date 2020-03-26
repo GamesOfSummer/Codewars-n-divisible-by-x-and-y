@@ -1,9 +1,6 @@
 var assert = require('assert');
 var { isDivisible } = require('./intex.js');
 
-
-
-
 describe('Fxn', function () {
     describe('#isDivisible()', function () {
         it('Test.assertSimilar(isDivisible(3,3,4),false);', function () {
