@@ -12,8 +12,8 @@
   },
   "scripts": {
     "build": "tsc src/intex.ts",
-    "run": "tsc dist/intex.js",
-    "test": "mocha"
+    "run": "node dist/intex.js ",
+    "test": "mocha src/intexTest.js"
   },
   "repository": {
     "type": "git",

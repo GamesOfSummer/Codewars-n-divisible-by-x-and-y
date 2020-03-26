@@ -6,3 +6,12 @@ export function hello(word: string = world): string {
 }
 
 hello("maybe hello");
+
+
+function isDivisible(n: number, x: number, y: number): boolean {
+
+
+    return true;
+}
+
+isDivisible(3, 3, 4);

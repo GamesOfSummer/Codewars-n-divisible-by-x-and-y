@@ -8,4 +8,8 @@ function hello(word) {
 }
 exports.hello = hello;
 hello("maybe hello");
+function isDivisible(n, x, y) {
+    return true;
+}
+isDivisible(3, 3, 4);
 //# sourceMappingURL=intex.js.map
