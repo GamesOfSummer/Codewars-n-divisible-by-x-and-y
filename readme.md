@@ -17,6 +17,19 @@ function isDivisible(n, x, y) {
 }
 ```
 
+OR
+
+```
+function isDivisible(n, x, y) {
+    return (n%x)==0 && (n%y) == 0;
+}
+```
+
+```
+let isDivisible = (n, x, y) => n % x == 0 && n % y == 0
+```
+
+
 the best
 
 ```
@@ -24,3 +37,7 @@ function isDivisible(n, x, y) {
   return !(n%x||n%y)
 }
 ```
+
+OR
+
+
