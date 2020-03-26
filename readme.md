@@ -38,6 +38,3 @@ function isDivisible(n, x, y) {
 }
 ```
 
-OR
-
-
